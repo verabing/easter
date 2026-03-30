@@ -1,0 +1,36 @@
+{
+  "ui": {
+    "pageTitle": "Påskekalender",
+    "pageIntro": "Fem små dører fra skjærtorsdag til og med påskemandag.",
+    "languageLabel": "Språk",
+    "todayButton": "I dag",
+    "statusTitle": "Status",
+    "statusText": "{open} av {total} dører er åpne akkurat nå.",
+    "openDoor": "Åpne",
+    "lockedDoor": "Låst",
+    "closeModal": "Lukk",
+    "footerText": "Bygget som en enkel GitHub Pages-versjon uten avhengigheter."
+  },
+  "doors": {
+    "maundyThursday": {
+      "title": "Skjærtorsdag",
+      "body": "Et rolig øyeblikk. Legg merke til noe lite som kjennes vennlig i dag, og la det få være nok. Du kan bytte denne teksten med hva du vil: dikt, bilde, lydlenke eller en liten oppgave."
+    },
+    "goodFriday": {
+      "title": "Langfredag",
+      "body": "I en light-versjon kan hver dør være svært enkel. Én tekst, ett bilde eller én lenke er ofte mer enn nok. Målet er lav friksjon og lett vedlikehold."
+    },
+    "holySaturday": {
+      "title": "Påskeaften",
+      "body": "Dette er en plassholdertekst. Du kan erstatte innholdet med noe personlig, lekent eller stille. Kalenderen fungerer uten ekstra biblioteker og kan publiseres rett på GitHub Pages."
+    },
+    "easterSunday": {
+      "title": "1. påskedag",
+      "body": "Her kan du legge inn en liten hilsen, et sitat, et bilde eller en kort lydfil via lenke. Om du vil, kan vi senere gjøre hver dør mer visuell."
+    },
+    "easterMonday": {
+      "title": "2. påskedag",
+      "body": "Siste dør i light-versjonen. Strukturen er laget for å ligne originalprosjektet ditt: egne mapper for bilder, språk, flagg og påminnelser."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ui": {
+    "pageTitle": "Easter Calendar",
+    "pageIntro": "Five small doors from Maundy Thursday through Easter Monday.",
+    "languageLabel": "Language",
+    "todayButton": "Today",
+    "statusTitle": "Status",
+    "statusText": "{open} of {total} doors are open right now.",
+    "openDoor": "Open",
+    "lockedDoor": "Locked",
+    "closeModal": "Close",
+    "footerText": "Built as a simple GitHub Pages version with no dependencies."
+  },
+  "doors": {
+    "maundyThursday": {
+      "title": "Maundy Thursday",
+      "body": "A quiet moment. Notice one small thing that feels kind today and let that be enough. You can replace this text with anything: a poem, an image, an audio link, or a tiny prompt."
+    },
+    "goodFriday": {
+      "title": "Good Friday",
+      "body": "In a light version, each door can stay very simple. One text, one image, or one link is usually enough. The goal is low friction and easy maintenance."
+    },
+    "holySaturday": {
+      "title": "Holy Saturday",
+      "body": "This is placeholder text. You can replace it with something personal, playful, or quiet. The calendar works without extra libraries and can be published directly on GitHub Pages."
+    },
+    "easterSunday": {
+      "title": "Easter Sunday",
+      "body": "Here you can add a short greeting, a quote, an image, or a brief audio file by link. Later we can make each door more visual if you want."
+    },
+    "easterMonday": {
+      "title": "Easter Monday",
+      "body": "Final door in the light version. The structure is designed to resemble your original project with separate folders for images, languages, flags, and reminders."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ui": {
+    "pageTitle": "Osterkalender",
+    "pageIntro": "Fünf kleine Türen von Gründonnerstag bis Ostermontag.",
+    "languageLabel": "Sprache",
+    "todayButton": "Heute",
+    "statusTitle": "Status",
+    "statusText": "{open} von {total} Türen sind gerade geöffnet.",
+    "openDoor": "Öffnen",
+    "lockedDoor": "Gesperrt",
+    "closeModal": "Schließen",
+    "footerText": "Als einfache GitHub-Pages-Version ohne Abhängigkeiten gebaut."
+  },
+  "doors": {
+    "maundyThursday": {
+      "title": "Gründonnerstag",
+      "body": "Ein ruhiger Moment. Nimm heute etwas Kleines wahr, das sich freundlich anfühlt, und lass das genügen. Du kannst diesen Text durch alles ersetzen: Gedicht, Bild, Audiolink oder kleinen Impuls."
+    },
+    "goodFriday": {
+      "title": "Karfreitag",
+      "body": "In einer Light-Version kann jede Tür sehr einfach bleiben. Ein Text, ein Bild oder ein Link reicht oft völlig aus. Das Ziel ist wenig Reibung und leichte Pflege."
+    },
+    "holySaturday": {
+      "title": "Karsamstag",
+      "body": "Dies ist ein Platzhaltertext. Du kannst ihn durch etwas Persönliches, Spielerisches oder Stilles ersetzen. Der Kalender funktioniert ohne zusätzliche Bibliotheken und lässt sich direkt auf GitHub Pages veröffentlichen."
+    },
+    "easterSunday": {
+      "title": "Ostersonntag",
+      "body": "Hier kannst du einen kurzen Gruß, ein Zitat, ein Bild oder eine kleine Audiodatei per Link einfügen. Später können wir jede Tür auf Wunsch visueller machen."
+    },
+    "easterMonday": {
+      "title": "Ostermontag",
+      "body": "Letzte Tür der Light-Version. Die Struktur ist so angelegt, dass sie deinem Originalprojekt ähnelt: separate Ordner für Bilder, Sprachen, Flaggen und Erinnerungen."
+    }
+  }
+}
