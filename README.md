@@ -1,76 +1,69 @@
-# Påskekalender light
+# Easter Nuts
 
-Dette er en forenklet påskekalender laget for GitHub Pages.
+A small Easter calendar for GitHub Pages.
 
-## Struktur
+## Concept
 
-- `index.html` – hovedfilen
-- `lang/` – språkfiler (`no.json`, `en.json`, `de.json`)
-- `bilder/` – legg bilder her hvis du vil bruke egne illustrasjoner
-- `flags/` – flaggikoner til språkvalg hvis du vil bygge det ut visuelt
-- `reminders/` – korte innholdsnotater og publiseringshjelp
-- `bakgrunn.jpg` – bakgrunnsbilde brukt av siden
-- `favicon.ico` – ikon i nettleseren
+- one basket
+- five patterned eggs
+- one egg unlocks each day from **Maundy Thursday** through **Easter Monday**
+- when an egg is opened, it disappears from the basket
+- the opened artwork is added to the gallery below
+- desktop: images line up next to each other
+- mobile: images stack vertically
 
-## Light-versjonen
+## Structure
 
-Denne versjonen har 5 dører:
+- `index.html` → single-page calendar in English
+- `bilder/` → artwork files for the five days
+- `reminders/` → small planning notes
+- `bakgrunn.jpg` → optional background asset
+- `favicon.ico` → site icon
 
-1. Skjærtorsdag
-2. Langfredag
-3. Påskeaften
-4. 1. påskedag
-5. 2. påskedag
+## Replace the placeholder art
 
-Datoene ligger i `index.html` i `calendarConfig`.
+The gallery uses these files:
 
-## Slik tilpasser du innholdet
+- `bilder/artwork-1.svg`
+- `bilder/artwork-2.svg`
+- `bilder/artwork-3.svg`
+- `bilder/artwork-4.svg`
+- `bilder/artwork-5.svg`
 
-### 1. Endre tekstene i dørene
+You can replace them with your own files and keep the same names, or update the file paths directly in `index.html`.
 
-Åpne språkfilene i `lang/` og rediger tittelen og teksten for hver dør.
+Recommended image size:
 
-### 2. Endre datoene
+- width: **1200–1600 px**
+- format: **jpg** or **webp**
+- target file size: **100–400 KB**
 
-I `index.html` finner du dette feltet:
+## Dates
 
-```js
-const calendarConfig = [
-  { id: 1, key: 'maundyThursday', date: '2026-04-02' },
-  { id: 2, key: 'goodFriday', date: '2026-04-03' },
-  { id: 3, key: 'holySaturday', date: '2026-04-04' },
-  { id: 4, key: 'easterSunday', date: '2026-04-05' },
-  { id: 5, key: 'easterMonday', date: '2026-04-06' }
-];
-```
+The current setup uses these dates in `index.html`:
 
-Bytt til årets påskedatoer ved behov.
+- 2026-04-02 → Maundy Thursday
+- 2026-04-03 → Good Friday
+- 2026-04-04 → Holy Saturday
+- 2026-04-05 → Easter Sunday
+- 2026-04-06 → Easter Monday
 
-### 3. Endre utseende
+Change them in the `items` array if you want another Easter year.
 
-- bytt `bakgrunn.jpg`
-- juster farger i `<style>` i `index.html`
-- legg inn egne bilder eller lenker i dørteksten
+## Publish on GitHub Pages
 
-## GitHub Pages
+1. Create a new repository.
+2. Upload the files from this folder.
+3. In GitHub, open **Settings → Pages**.
+4. Set source to **Deploy from a branch**.
+5. Choose the `main` branch and `/root`.
+6. Save.
 
-1. Lag et nytt repository, for eksempel `paaskekalender-light`
-2. Last opp alle filene i denne mappen
-3. Gå til **Settings > Pages**
-4. Velg branch `main` og root `/`
-5. Lagre
+## Notes
 
-Da publiseres siden som en statisk nettside.
+This version is intentionally simple:
 
-## Neste steg
-
-Hvis du vil bygge videre fra denne light-versjonen, er de mest naturlige retningene:
-
-a) bare bytte tekst og bilder
-b) gjøre dørene mer visuelle med illustrasjoner
-c) legge inn lyd, dikt eller små oppgaver i hver dør
-
-
-## Ny UI-retning
-
-Denne versjonen bruker en kurv med fem mønstrede egg. Når et egg åpnes, blir det liggende som sprukket skall i kurven, og dagens bilde samles separat i galleriet. Standard plassholderbilder ligger i `bilder/egg-1.svg` til `bilder/egg-5.svg` og kan erstattes med egne bilder med samme filnavn.
+- no frameworks
+- no libraries
+- no language switcher
+- no build tools
