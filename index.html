@@ -11,11 +11,26 @@
     body {
       margin: 0;
       font-family: 'Nunito', Arial, sans-serif;
-      background: linear-gradient(to bottom,#ffffff 0%, #f7f3ea 100%);
+      background: #ffffff;
       color: #222;
       text-align: center;
     }
+  
+    body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, rgba(255,200,0,0.15) 1px, transparent 1px);
+  background-size: 120px 120px;
+  animation: float 20s linear infinite;
+  opacity: 0.4;
+}
 
+@keyframes float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-40px); }
+}
     .wrap {
       max-width: 1120px;
       margin: 0 auto;
